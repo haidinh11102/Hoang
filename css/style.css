@@ -1,0 +1,64 @@
+body{
+    font-family: 'Pixelify Sans', cursive;
+}
+.container  {
+    width: 250px;
+    background-color: rgb(117, 166, 27);
+    position: fixed;
+    top: 30%;
+    left: 45%;
+    align-items: center;
+    padding: 10px 5px;
+    /* margin: 0 auto; */
+
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(206, 35, 35, 0.25);
+
+/* Đổ bóng sẽ được đặt trực tiếp sau phần tử đó.
+Chiều cao đổ bóng sẽ là 14px.
+Độ rộng của đổ bóng sẽ là 28px.
+Màu sắc của đổ bóng là màu đen với độ trong suốt là 25% (rgba(0, 0, 0, 0.25)). */
+
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+/* horizontal offset: Khoảng cách đổ bóng theo chiều ngang từ phần tử gốc. Nếu giá trị âm, bóng sẽ xuất hiện ở bên trái của phần tử.
+    vertical offset: Khoảng cách đổ bóng theo chiều dọc từ phần tử gốc. Nếu giá trị âm, bóng sẽ xuất hiện ở bên trên của phần tử.
+blur radius: Bán kính mờ của bóng. Nếu giá trị bằng 0, bóng sẽ rõ ràng.
+spread radius: Khoảng cách giữa viền của phần tử và bóng. Nếu giá trị bằng 0, bóng sẽ tiếp xúc với phần tử.
+    color: Màu sắc của bóng.*/
+
+    /* rgba(0, 0, 0, 0.25) là một giá trị màu sắc trong CSS, được định nghĩa bằng cách sử dụng một tổ hợp giá trị RGBA (Red, Green, Blue và Alpha). */
+
+/* Giá trị Red (đỏ) là 0, có nghĩa là màu đen, vì đỏ không có giá trị.
+Giá trị Green (xanh lá cây) là 0, cũng có nghĩa là màu đen, vì xanh lá cây không có giá trị.
+Giá trị Blue (xanh lam) cũng là 0, có nghĩa là màu đen, vì xanh lam không có giá trị.
+Giá trị Alpha là 0.25, là một giá trị từ 0 đến 1, đại diện cho độ trong suốt của màu sắc. 0 đại diện cho toàn bộ màu sắc trong suốt và 1 đại diện cho màu sắc hoàn toàn không trong suốt.
+Kết hợp với nhau, giá trị RGBA trên tạo ra một màu đen hơi trong suốt, có độ trong suốt là 25% (tương đương với 75% không trong suốt). Mã màu này có thể được sử dụng để đặt nền cho một phần tử HTML, áp dụng hiệu ứng đổ bóng hoặc tạo đường viền cho phần tử. */
+} 
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin: 10px;
+    border-radius: 05px;
+    border: none;
+}
+
+input:focus{
+    outline: 2px solid black;
+}
+
+button{
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+
